@@ -4,15 +4,14 @@ class Block{
          
           restitution :0.4,
           friction :0.0,
-          //isStatic:true
-         
-      }
-      this.visibility = 225;
+          }
+      
+     
       this.body = Bodies.rectangle(x, y, width, height, options);
       this.width = width;
       this.height = height;
       World.add(world, this.body);
-      
+       this.visibility = 225;
     }
    
     display(){
