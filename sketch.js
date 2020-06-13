@@ -38,6 +38,10 @@ function setup() {
   block10 = new Block(390,235,30,40);
   block11 = new Block(420,235,30,40);
   block12 = new Block(450,235,30,40);
+
+  //level 3
+  block17 = new Block(330,215,90,30);
+  
   //level three
   block13 = new Block(360,195,30,40);
   block14 = new Block(390,195,30,40);
