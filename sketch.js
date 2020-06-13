@@ -97,6 +97,7 @@ function draw() {
   block14.display();
   block15.display();
   fill("grey");
+  block17.display();
   block16.display();
   fill("skyblue");
   blocks1.display();
